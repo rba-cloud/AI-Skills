@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="not-found"><div className="code">404</div><h1>This page is still off the map.</h1><p>Try a practical learning path or head back to the workspace.</p><div className="hero-actions" style={{justifyContent:"center"}}><Link className="primary-button" href="/learn">Explore learning</Link><Link className="secondary-button" href="/">Back home</Link></div></section>}
